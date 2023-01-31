@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(49, 54, 59);
+}
+
+.container{
+    width: 55vw;
+    background-color: cadetblue;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.from, .to, .btn{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.container label, .container select, .container input[type=submit]{
+    font-size: 34px;
+}
+
+.container label{
+    color: rgb(49, 54, 59);
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    color: rgb(49, 54, 59);
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+#btnTaksiHesapla{
+    border: transparent;
+}
+
+#btnTaksiHesapla:hover{
+    color: rgb(49, 54, 59);
+    border: rgb(49, 54, 59);
+}
